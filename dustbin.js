@@ -13,7 +13,7 @@ class Dustbin{
          this.body3 = Bodies.rectangle(550, 670, 140, 5, options);
          World.add(world, this.body3); 
 
-         this.image = loadImage("dustbin.png"); } 
+         this.image = loadImage("Dustbin.png"); } 
          
          display(){
               image(this.image, 475, 510, 150, 150);
